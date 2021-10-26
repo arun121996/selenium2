@@ -22,6 +22,7 @@ public class Day3 {
 		List<WebElement> rows = driver.findElements(By.tagName("tr"));
 		int size = rows.size();
 		System.out.println(size);
+		System.out.println("done");
 		
 	}
 }
